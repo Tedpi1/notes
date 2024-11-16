@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Make Notes
+{% endblock title %}
+{% block content %}
+    <div class="container">
+        <div class="notes-container">
+            <form action="">
+                <h1 class="title">Title: <span> 
+                <input type="text">
+                </span></h1>
+                <textarea name="" class="notes" placeholder="Write your notes here...d"></textarea>
+                <button class="btn btn-primary">Save</button>
+            </form>
+        </div>
+        
+    </div>
+{% endblock content %}
